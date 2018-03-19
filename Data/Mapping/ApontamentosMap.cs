@@ -14,6 +14,12 @@ namespace Data.Mapping
     {
       this.Table("[APONTAMENTOS]");
       this.Id(x => x.Id).GeneratedBy.Identity();
+      this.Map(x => x.Data);
+      this.References(x => x.HorasExtrasFdsId, "HORAS_EXTRAS_FDS_ID");
+      this.References(x => x.HorasExtrasId, "HORAS_EXTRAS_ID");
+      this.References(x => x.ManhaId, "MANHA_ID");
+      this.References(x => x.TardeId, "TARDE_ID");
+      this.Map(x => x.Resumo);
 
     }
   }

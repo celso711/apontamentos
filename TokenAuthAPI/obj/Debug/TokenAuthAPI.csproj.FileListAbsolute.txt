@@ -50,7 +50,6 @@ C:\workspace\apontamentos\TokenAuthAPI\bin\Newtonsoft.Json.xml
 C:\workspace\apontamentos\TokenAuthAPI\bin\System.Net.Http.Formatting.xml
 C:\workspace\apontamentos\TokenAuthAPI\bin\System.Web.Http.xml
 C:\workspace\apontamentos\TokenAuthAPI\bin\System.Web.Http.WebHost.xml
-C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.csprojResolveAssemblyReference.cache
 C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.csproj.CoreCompileInputs.cache
 C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.dll
 C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.pdb

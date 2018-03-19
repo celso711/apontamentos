@@ -12,9 +12,6 @@ namespace Data.DataAccessObject
     public virtual string Data { get; set; }
 
     /// <summary> Gets or sets </summary>
-    public virtual string Final { get; set; }
-
-    /// <summary> Gets or sets </summary>
     public virtual int ManhaId { get; set; }
 
     /// <summary> Gets or sets </summary>

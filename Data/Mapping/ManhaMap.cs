@@ -14,6 +14,9 @@ namespace Data.Mapping
     {
       this.Table("[Manha]");
       this.Id(x => x.Id).GeneratedBy.Identity();
+      this.Map(x => x.Final);
+      this.Map(x => x.Inicio);
+      this.Map(x => x.Total);
     }
   }
 }

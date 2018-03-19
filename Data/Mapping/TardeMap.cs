@@ -14,6 +14,8 @@ namespace Data.Mapping
     {
       this.Table("[Tarde]");
       this.Id(x => x.Id).GeneratedBy.Identity();
+      this.Map(x => x.Final);
+      this.Map(x => x.Inicio);
     }
   }
 }

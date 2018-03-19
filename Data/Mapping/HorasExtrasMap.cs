@@ -14,6 +14,9 @@ namespace Data.Mapping
     {
       this.Table("[HORAS_EXTRAS]");
       this.Id(x => x.Id).GeneratedBy.Identity();
+      this.Map(x => x.Final);
+      this.Map(x => x.Inicio);
+      this.Map(x => x.Total);
     }
   }
 }

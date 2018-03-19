@@ -8,3 +8,10 @@
 /Model/bin/Debug
 /Portal/bin
 /WebApi/bin
+/Business/obj/Debug
+/Data/obj
+/Model/obj
+/Portal/obj
+/TokenAuthAPI/bin
+/TokenAuthAPI/obj
+/WebApi/obj
