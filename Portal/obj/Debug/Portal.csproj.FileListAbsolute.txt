@@ -6,4 +6,3 @@ C:\workspace\apontamentos\Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerP
 C:\workspace\apontamentos\Portal\obj\Debug\Portal.csproj.CoreCompileInputs.cache
 C:\workspace\apontamentos\Portal\obj\Debug\Portal.dll
 C:\workspace\apontamentos\Portal\obj\Debug\Portal.pdb
-C:\workspace\apontamentos\Portal\obj\Debug\Portal.csprojResolveAssemblyReference.cache

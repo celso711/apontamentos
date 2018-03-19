@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\ApontamentosFullDto.cs" />
+    <Compile Include="Dto\BaseModelDto.cs" />
+    <Compile Include="Dto\CredentialsDto.cs" />
     <Compile Include="Exception\ApontamentoException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
