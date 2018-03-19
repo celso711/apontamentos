@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/Business/bin/Debug
+/Data/bin/Debug
+/Model/bin/Debug
+/Portal/bin
+/WebApi/bin

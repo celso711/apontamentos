@@ -6,6 +6,7 @@
   using FluentNHibernate.Cfg.Db;
   using NHibernate;
   using NHibernate.Cfg;
+  using System.Reflection;
 
   /// <summary>
   /// NHibernate helper class
@@ -35,8 +36,8 @@
       SessionFactory = Fluently.Configure()
           .Database(MsSqlConfiguration.MsSql2012
           .ConnectionString(ApplicationConfiguration.DatabaseConfiguration.ConnectionString))
-          .Mappings(m => m
-          .FluentMappings.AddFromAssemblyOf<UserDao>())
+          .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetExecutingAssembly())
+                        )
           .ExposeConfiguration(cfg => cfg.SetProperty(Environment.CurrentSessionContextClass, "web")
                                           .SetProperty(Environment.ShowSql, "true"))
           .BuildSessionFactory();

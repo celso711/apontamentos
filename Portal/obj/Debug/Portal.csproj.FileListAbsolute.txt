@@ -1,0 +1,8 @@
+C:\workspace\apontamentos\Portal\bin\Portal.dll.config
+C:\workspace\apontamentos\Portal\bin\Portal.dll
+C:\workspace\apontamentos\Portal\bin\Portal.pdb
+C:\workspace\apontamentos\Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\workspace\apontamentos\Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\workspace\apontamentos\Portal\obj\Debug\Portal.csproj.CoreCompileInputs.cache
+C:\workspace\apontamentos\Portal\obj\Debug\Portal.dll
+C:\workspace\apontamentos\Portal\obj\Debug\Portal.pdb

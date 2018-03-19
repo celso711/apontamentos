@@ -1,0 +1,17 @@
+C:\workspace\apontamentos\WebApi\bin\WebApi.dll.config
+C:\workspace\apontamentos\WebApi\bin\WebApi.dll
+C:\workspace\apontamentos\WebApi\bin\WebApi.pdb
+C:\workspace\apontamentos\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\workspace\apontamentos\WebApi\bin\Newtonsoft.Json.dll
+C:\workspace\apontamentos\WebApi\bin\System.Net.Http.Formatting.dll
+C:\workspace\apontamentos\WebApi\bin\System.Web.Http.dll
+C:\workspace\apontamentos\WebApi\bin\System.Web.Http.WebHost.dll
+C:\workspace\apontamentos\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\workspace\apontamentos\WebApi\bin\Newtonsoft.Json.xml
+C:\workspace\apontamentos\WebApi\bin\System.Net.Http.Formatting.xml
+C:\workspace\apontamentos\WebApi\bin\System.Web.Http.xml
+C:\workspace\apontamentos\WebApi\bin\System.Web.Http.WebHost.xml
+C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
+C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cache
+C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.dll
+C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.pdb

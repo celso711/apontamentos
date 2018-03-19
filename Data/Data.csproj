@@ -61,12 +61,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessObject\ApontamentosDao.cs" />
+    <Compile Include="DataAccessObject\BaseDao.cs" />
+    <Compile Include="DataAccessObject\HorasExtrasDao.cs" />
+    <Compile Include="DataAccessObject\HorasExtrasFdsDao.cs" />
+    <Compile Include="DataAccessObject\ManhaDao.cs" />
+    <Compile Include="DataAccessObject\TardeDao.cs" />
+    <Compile Include="HibernateHelper.cs" />
+    <Compile Include="Mapping\ApontamentosMap.cs" />
+    <Compile Include="Mapping\HorasExtrasFdsMap.cs" />
+    <Compile Include="Mapping\HorasExtrasMap.cs" />
+    <Compile Include="Mapping\ManhaMap.cs" />
+    <Compile Include="Mapping\TardeMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ApplicationConfiguration.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataAccessObject\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
