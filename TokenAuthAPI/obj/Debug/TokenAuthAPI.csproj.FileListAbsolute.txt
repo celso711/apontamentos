@@ -53,3 +53,4 @@ C:\workspace\apontamentos\TokenAuthAPI\bin\System.Web.Http.WebHost.xml
 C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.csproj.CoreCompileInputs.cache
 C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.dll
 C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.pdb
+C:\workspace\apontamentos\TokenAuthAPI\obj\Debug\TokenAuthAPI.csprojResolveAssemblyReference.cache
