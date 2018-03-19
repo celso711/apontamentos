@@ -14,3 +14,4 @@ C:\workspace\apontamentos\WebApi\bin\System.Web.Http.WebHost.xml
 C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cache
 C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.dll
 C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.pdb
+C:\workspace\apontamentos\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache

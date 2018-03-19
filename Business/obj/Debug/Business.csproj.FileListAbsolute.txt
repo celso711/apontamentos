@@ -3,4 +3,3 @@ C:\workspace\apontamentos\Business\bin\Debug\Business.pdb
 C:\workspace\apontamentos\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 C:\workspace\apontamentos\Business\obj\Debug\Business.dll
 C:\workspace\apontamentos\Business\obj\Debug\Business.pdb
-C:\workspace\apontamentos\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
