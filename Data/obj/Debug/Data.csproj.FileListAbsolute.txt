@@ -16,3 +16,5 @@ C:\workspace\apontamentos\Data\bin\Debug\Remotion.Linq.EagerFetching.xml
 C:\workspace\apontamentos\Data\obj\Debug\Data.dll
 C:\workspace\apontamentos\Data\obj\Debug\Data.pdb
 C:\workspace\apontamentos\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\workspace\apontamentos\Data\bin\Debug\Model.dll
+C:\workspace\apontamentos\Data\bin\Debug\Model.pdb
