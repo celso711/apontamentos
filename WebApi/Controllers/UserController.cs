@@ -1,4 +1,7 @@
-﻿using Model.Dto;
+﻿using Business;
+using Model.Dto;
+using Model.Exception;
+using Model.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +30,7 @@ namespace WebApi.Controllers
           return this.Ok(new HttpResultModel(false, "Usuário ou senha inválidos"));
         }
       }
-      catch (AgendaLabException e)
+      catch (ApontamentoException e)
       {
         return this.Content(System.Net.HttpStatusCode.PreconditionFailed, new HttpResultModel(false, e.Message));
       }

@@ -36,8 +36,8 @@
       SessionFactory = Fluently.Configure()
           .Database(MsSqlConfiguration.MsSql2012
           .ConnectionString(ApplicationConfiguration.DatabaseConfiguration.ConnectionString))
-          .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetExecutingAssembly())
-                        )
+          .Mappings(m => m
+          .FluentMappings.AddFromAssemblyOf<UserDao>())
           .ExposeConfiguration(cfg => cfg.SetProperty(Environment.CurrentSessionContextClass, "web")
                                           .SetProperty(Environment.ShowSql, "true"))
           .BuildSessionFactory();

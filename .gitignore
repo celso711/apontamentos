@@ -2,8 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/packages
 /.vs
 /Business/bin/Debug
+/Business/obj
 /Data/bin/Debug
 /Data/obj/Debug/Data.csprojResolveAssemblyReference.cache
 /Model/bin/Debug/Model.dll

@@ -43,8 +43,10 @@
     <Compile Include="Dto\ApontamentosFullDto.cs" />
     <Compile Include="Dto\BaseModelDto.cs" />
     <Compile Include="Dto\CredentialsDto.cs" />
+    <Compile Include="Dto\UserSessionDto.cs" />
     <Compile Include="Exception\ApontamentoException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\HttpResultModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
