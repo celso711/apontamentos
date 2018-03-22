@@ -38,11 +38,11 @@ namespace Business
      
       UserSessionDto session = new UserSessionDto();
 
-      //1- verifica se tem token
-      //2- verifica se o token é valido: http://localhost:19647/IsTokenAuthorized
-      //3 - se nao for valido pega um novo token: http://localhost:19647/token
-      //  4- grava no banco para esse usuario o novo token
-      //    5- verifica o token http://localhost:19647/IsTokenAuthorized
+      // 1- verifica se tem token no banco
+      // 2- verifica se o token é valido: http://localhost:19647/IsTokenAuthorized
+      // 3- se nao for valido pega um novo token: http://localhost:19647/token
+      // 4- grava no banco para esse usuario o novo token
+      // 5- verifica o token http://localhost:19647/IsTokenAuthorized
       // retorna okay logado
 
       var task = testAsync();
