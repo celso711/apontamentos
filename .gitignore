@@ -2,19 +2,22 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/WebApi/obj/Debug
+/TokenAuthAPI/obj
 /packages
 /.vs
-/Business/bin/Debug
-/Business/obj
-/Data/bin/Debug
+/Business/bin/Debug/**
+/Business/obj/**
+/Data/bin/Debug/**
 /Data/obj/Debug/Data.csprojResolveAssemblyReference.cache
 /Model/bin/Debug/Model.dll
 /Model/bin/Debug/Model.pdb
 /Model/obj/Debug/Model.csprojResolveAssemblyReference.cache
-/Portal/bin
-/WebApi/bin/roslyn
-/WebApi/bin
+/Portal/bin/**
+/WebApi/bin/roslyn/**
+/WebApi/bin/**
 /Business/obj/Debug/Business.csprojResolveAssemblyReference.cache
 /Portal/obj/Debug/Portal.csprojResolveAssemblyReference.cache
 /TokenAuthAPI/obj/Debug/TokenAuthAPI.csprojResolveAssemblyReference.cache
 /WebApi/obj/Debug/WebApi.csprojResolveAssemblyReference.cache
+/TokenAuthAPI/obj/**

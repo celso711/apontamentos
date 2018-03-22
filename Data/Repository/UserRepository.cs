@@ -9,5 +9,6 @@ namespace Data.Repository
 {
   public class UserRepository : BaseRepository<UserDao>
   {
+
   }
 }

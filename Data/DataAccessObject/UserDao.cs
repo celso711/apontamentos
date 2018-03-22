@@ -22,5 +22,6 @@ namespace Data.DataAccessObject
     public virtual bool Active { get; set; }
 
     public virtual bool IsAdmin { get; set; }
+    public virtual string AccessToken { get; set; }
   }
 }

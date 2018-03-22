@@ -1,7 +1,9 @@
+C:\workspace\apontamentos\Business\bin\Debug\Business.dll.config
 C:\workspace\apontamentos\Business\bin\Debug\Business.dll
 C:\workspace\apontamentos\Business\bin\Debug\Business.pdb
 C:\workspace\apontamentos\Business\bin\Debug\Data.dll
 C:\workspace\apontamentos\Business\bin\Debug\Model.dll
+C:\workspace\apontamentos\Business\bin\Debug\System.Net.Http.dll
 C:\workspace\apontamentos\Business\bin\Debug\System.Net.Http.Extensions.dll
 C:\workspace\apontamentos\Business\bin\Debug\System.Net.Http.Formatting.dll
 C:\workspace\apontamentos\Business\bin\Debug\System.Net.Http.Primitives.dll
@@ -24,5 +26,3 @@ C:\workspace\apontamentos\Business\obj\Debug\Business.csprojResolveAssemblyRefer
 C:\workspace\apontamentos\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 C:\workspace\apontamentos\Business\obj\Debug\Business.dll
 C:\workspace\apontamentos\Business\obj\Debug\Business.pdb
-C:\workspace\apontamentos\Business\bin\Debug\Business.dll.config
-C:\workspace\apontamentos\Business\bin\Debug\System.Net.Http.dll

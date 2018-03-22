@@ -15,7 +15,11 @@ namespace Data.Mapping
     {
       this.Table("[User]");
       this.Id(x => x.Id).GeneratedBy.Identity();
-
+      this.Map(x => x.AccessToken);
+      this.Map(x => x.Active);
+      this.Map(x => x.IsAdmin);
+      this.Map(x => x.Password);
+      this.Map(x => x.Username);
     }
 
     protected UserMap(AttributeStore attributes, MappingProviderStore providers) : base(attributes, providers)

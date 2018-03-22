@@ -19,7 +19,7 @@ namespace Data.Repository
     /// </summary>
     public BaseRepository()
     {
-      this.session = HibernateHelper.SessionFactory.GetCurrentSession();
+       this.session = HibernateHelper.SessionFactory.GetCurrentSession();
     }
 
     /// <summary>

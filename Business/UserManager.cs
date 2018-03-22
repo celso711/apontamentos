@@ -2,7 +2,9 @@
 using Model.Dto;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,33 +20,57 @@ namespace Business
   }
   public static class UserManager
   {
-
     static HttpClient client = new HttpClient();
 
     public static UserSessionDto Login(CredentialsDto credentials)
     {
-      UserRepository userRepository = new UserRepository();
+      try
+      {
+        UserRepository userRepository = new UserRepository();
+       
+      }
+      catch (Exception ex)
+      {
 
+        throw;
+      }
+     
+     
       UserSessionDto session = new UserSessionDto();
-      CreateProductAsync();
+
+      //1- verifica se tem token
+      //2- verifica se o token é valido: http://localhost:19647/IsTokenAuthorized
+      //3 - se nao for valido pega um novo token: http://localhost:19647/token
+      //  4- grava no banco para esse usuario o novo token
+      //    5- verifica o token http://localhost:19647/IsTokenAuthorized
+      // retorna okay logado
+
+      var task = testAsync();
+      task.Wait(); 
+                  
+      var result = task.Result;
+    
       return session;
     }
-
-    static async Task<Uri> CreateProductAsync()
+    static async Task<object> testAsync()
     {
+      var dict = new Dictionary<string, string>();
+      dict.Add("grant_type", "password");
+      dict.Add("username", "celso.neto");
+      dict.Add("password", "#1q2w3e#");
 
-      var client = new HttpClient();
-      client.BaseAddress = new Uri("http://localhost:19647");
-      var request = new HttpRequestMessage(HttpMethod.Post, "token");
+      var req = new HttpRequestMessage(HttpMethod.Post, @"http://localhost:19647/token") { Content = new FormUrlEncodedContent(dict) };
 
-      var requestContent = string.Format("site={0}&content={1}", Uri.EscapeDataString("http://localhost:19647"),
-          Uri.EscapeDataString("grant_type=password&username=celso.neto&password=%231q2w3e%23"));
-      request.Content = new StringContent(requestContent, Encoding.UTF8, "application/x-www-form-urlencoded");
-
-      var response = await client.SendAsync(request);
-
+      using (var httpClient = new HttpClient())
+      {
+        var httpResonse = await httpClient.SendAsync(req).ConfigureAwait(false);
+        if (httpResonse.IsSuccessStatusCode)
+        {
+          var resp = await httpResonse.Content.ReadAsStringAsync().ConfigureAwait(false);
+          return resp;
+        }
+      }
       return null;
     }
-
   }
 }
